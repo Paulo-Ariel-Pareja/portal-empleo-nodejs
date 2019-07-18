@@ -70,9 +70,9 @@ app.use((error, req, res) => {
 // app.listen(process.env.PUERTO);
 
 // modificacion para heroku
-const host = '0.0.0.0';
-const port = process.env.PORT;
+// const host = '0.0.0.0';
+// const port = process.env.PORT;
 
-app.listen(port, host, () => {
-    console.log('Servidor funcionando');
-});
+// app.listen(port, host, () => {
+//     console.log('Servidor funcionando');
+// });
